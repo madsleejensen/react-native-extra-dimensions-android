@@ -18,8 +18,7 @@ public class ExtraDimensionsPackage implements ReactPackage {
         return Arrays.asList();
     }
 
-
-    @Override
+    // Deprecated RN 0.47
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
 
